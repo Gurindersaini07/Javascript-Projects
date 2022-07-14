@@ -1,0 +1,54 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+</head>
+
+<body>
+    <link rel="stylesheet" href="style.css">
+    <div class="wrap">
+        <div class="heading">Bill Split</div>
+        <div class="section">
+            <div class="text">Total Bill Amount</div>
+            <div class="inputsection">
+                <span>$</span>
+                <input type="text" id="gettingbillinput" onkeyup="billcalculator()" placeholder="0.00">
+            </div>
+        </div>
+        <div class="section">
+            <div class="text">Tax%</div>
+            <div class="inputsection">
+                <span>%</span>
+                <input type="text" placeholder="17" onkeyup="billcalculator()" id="gettingtaxinput">
+            </div>
+        </div>
+        <div class="section" id="billsplitbutton">
+            <div class="text">No. of People</div>
+            <div class="button">
+                <span class="button-section">
+                    <button class="splitbill" onclick="decpeople()">
+                        <span class="text">-</span>
+                    </button>
+                </span>
+                <span class="peopleno" id="updatepeopleno">1</span>
+                <span class="button-section">
+                    <button class="splitbill" onclick="incpeople()">
+                        <span class="text">+</span>
+                    </button>
+                </span>
+            </div>
+        </div>
+        <div class="amountsection">
+            <div class="amounttext">Amount Per Person</div>
+            <div class="finalamount" id="finalamount1">$0.00</div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <script type="text/javascript" src="backend.js"></script>
+</body>
+
+</html>

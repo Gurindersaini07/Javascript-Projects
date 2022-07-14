@@ -1,0 +1,77 @@
+.wrap{
+        height: 525px;
+        width: 360px;
+        color: white;
+        background: #272639;
+        border-radius: 1rem;
+        padding: 1.2rem;
+        margin: 100px auto;
+}
+.heading{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.section{
+    margin-top:40px;
+}
+.text{
+        font-weight: bold;
+        font-size: x-large;
+        margin-bottom: 15px;
+        margin-top: -15px;   
+}
+.inputsection{
+  background: #353959;
+    border-radius: 1.4rem;
+    fill: none;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+input, select, textarea{
+    background-color: rgba(255, 255, 255, 0);
+    border: #27263900;
+    font-size: x-large;
+    color: #ffffff;
+    margin-left: 4px;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+body {
+    background: #8990ec;
+  }
+  button{
+    background: #8990ec;
+    place-items: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border-color: #27263900;
+  }
+  span{
+    font-size: x-large;
+  }
+  .peopleno{
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: x-large;
+  }
+  .amountsection{
+    padding-top: 30px;
+    padding-left: 80px;
+  }
+  .finalamount{
+    font-size: xx-large;
+    padding-left: 160px;
+    padding-top: 10px;
+  }
+  .amounttext{
+    font-size: xx-large;
+    font-weight: bolder;
+  }
+  
+  
