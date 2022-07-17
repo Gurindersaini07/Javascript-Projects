@@ -1,0 +1,88 @@
+body{
+    background-color:rgb(232, 234, 244);
+}
+ .wrap{
+   margin-top:-30px ;
+   transform:
+   perspective(90em)
+   rotateX(20deg);
+ box-shadow:
+   rgba(22, 31, 39, 3) 0px 60px 123px -25px,
+   rgba(19, 26, 32, 38) 0px 35px 75px -35px;
+ border-radius: 10px;
+ border-color:
+   rgb(213, 220, 226)
+   rgb(213, 220, 226)
+   rgb(184, 194, 204);
+    background-color: rgb(23, 24, 26);
+    position: absolute;
+    padding: 10px;
+    border-radius: 25px;
+    margin-left: 37%;
+ }
+
+ button{
+    width:75px;
+    font-size: 20px;
+    font-weight:bold;
+    border-radius: 30px;
+    border: 0ch;
+    margin: 5px;
+ }
+ .scisign{
+    background: rgb(34, 36, 39);
+    color: rgb(236, 236, 236);
+    font-weight: bold;
+    padding: 22px ;
+    padding-top: 15px;
+    padding-bottom: 15px;
+ }
+ .otherbtn{
+    color: rgb(236, 236, 236);
+    background: rgb(34, 36, 39);
+    padding: 30px ;
+ }
+ #zerobtn{
+    background: rgb(34, 36, 39);
+    padding: 30px ;
+    color: rgb(236, 236, 236);
+    padding-left: 82px;
+    padding-right: 82px;
+ }
+ #clearbtn{
+   font-size: x-large;
+    color:rgb(213, 60, 69);
+    background: rgb(45, 25, 30);
+    padding: 30px ;
+ }
+
+ #typingstate{
+    font-size:x-large;
+    text-align: end;
+    color: aliceblue;
+    padding-top: 30px;
+ }
+ #liveresult {
+   text-align: end;
+font-size: xx-large;
+color: aliceblue;
+padding-block: 70px;
+margin-block: -40px;
+padding-bottom: 30px;
+padding-top: 70px;
+ }
+ #arthsign{
+   background: rgb(255, 149, 0);
+   color: rgb(236, 236, 236);
+    padding: 30px ;
+ }
+ #equalsign{
+   background: rgb(46, 201, 115);
+   color: rgb(236, 236, 236);
+    padding: 30px ;
+ }
+ #time{
+   color: rgb(236, 236, 236);
+   margin-top: 10px;
+   margin-left: 10px;
+ }

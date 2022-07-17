@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="shortcut icon" href="#">
+    <script src="Backend.js" defer></script>
+</head>
+<body>
+    
+    <div class="wrap">
+        <div id="time">1234</div>
+        <div id="typingstate"></div>
+        <div id="liveresult"></div>
+        <div>
+            <button class="scisign" onclick="erase()">⌫</button>
+        </div>
+        <div>
+            <button id="clearbtn" onclick="clearscr()">C</button>
+            <button class="otherbtn" value="(">(</button>
+            <button class="otherbtn" value=")">)</button>
+            <button class="arthsign" id="arthsign" value="/">/</button>
+        </div>
+        <div>
+            <button class="otherbtn" value="7">7</button>
+            <button class="otherbtn" value="8">8</button>
+            <button class="otherbtn" value="9">9</button>
+            <button class="arthsign" id="arthsign" value="*">*</button>
+        </div>
+        <div>
+            <button class="otherbtn" value="4">4</button>
+            <button class="otherbtn" value="5">5</button>
+            <button class="otherbtn" value="6">6</button>
+            <button class="arthsign" id="arthsign" value="-">-</button>
+        </div>
+        <div>
+            <button class="otherbtn" value="1">1</button>
+            <button class="otherbtn" value="2">2</button>
+            <button class="otherbtn" value="3">3</button>
+            <button class="arthsign" id="arthsign" value="+">+</button>
+        </div>
+        <div>
+            <button class="otherbtn" id="zerobtn" value="0">0</button>
+            <button class="otherbtn" value=".">.</button>
+            <button id="equalsign" value="=" onclick="equalto">=</button>
+        </div>
+    </div>
+    
+    <link rel="stylesheet" href="Style.css">
+</body>
+</html>
